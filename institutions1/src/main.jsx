@@ -24,12 +24,13 @@ let institutions = {
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <h1>institutions I have attended</h1>
-   {
-     institutions.seanInstitutions.map((i) => <Institutions key = {i.name} name = {i.name} date = {i.date} description = {i.description}></Institutions>)
-   }
-
-
-    
+    {institutions.seanInstitutions.map((i) => (
+      <Institutions
+        key={i.name}
+        name={i.name}
+        date={i.date}
+        description={i.description}
+      ></Institutions>
+    ))}
   </React.StrictMode>
 );
-
