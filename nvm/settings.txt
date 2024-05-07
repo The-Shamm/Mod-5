@@ -1,0 +1,2 @@
+root: E:\CIS255\ASSIGNMENTS\Mod-5\nvm
+path: C:\Program Files\nodejs
